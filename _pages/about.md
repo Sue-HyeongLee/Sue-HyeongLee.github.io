@@ -2,25 +2,49 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 010 - 8863 - 5785. my moto is think hard.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
+    <p>my phone number 010 - 8863 - 5785</p>
+    <p>장안구 서부로 2066</p>
+    <p>경기 수원시</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-This is some random text
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### instruction
+I graduated from Sangsan high school.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I major in aplied artificial inteligence and computer science engineering at Sungkyunkwan University.
+
+I am a passionate student. i am currently in second year of university.
+
+### skil
+I use Python and C, javascript.
+
+### education 
+[Mar 2022 ~ Current] **Bachelor of Science**
+   * SungkyunKwan University(Seoul, Republic of Korea)
+
+   * Major: Applied Artificial Inteligence && Computer Science engineering(Software)
+
+   * overall GPA: 4.43/4.5 Major GPA: 4.38/4.5
+
+### Achievement and Certifications
+[may 2023] Dean's list (성적 우수자)
+
+[oct 2023] 서울권 대학 연합 인공지능 경진대회 SCAIO 본선 진출
+
+### Contact
+* my instagram: [instagram](https://www.instagram.com/isuhyeong55/)
+
+* Email: hermi6143@naver.com
+
+* github: [Github](https://github.com/Sue-HyeongLee)

@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sue-Hyeong Lee",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "hermi6143@naver.com",
+    "phone": "010-8863-5785",
+    "url": "https://Sue-HyeongLee/al-folio/",
+    "summary": "A Korean student, major in Aplied Articial inteligence and Software(Computer Science)",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,14 +24,14 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Sungkyunkwan University",
+      "position": "Student of Aplied Artificial Inteligence",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2022-02-29",
+      "endDate": "2023-01-01",
+      "summary": "I study hard",
       "highlights": [
-        "Relativity"
+        "Software"
       ]
     }
   ],

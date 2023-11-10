@@ -4,9 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sue-Hyeong
-middle_name: R.
+middle_name: .
 last_name: Lee
-email: you@example.com
+email: hermi6143@naver.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -137,7 +137,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
+  repo:   # <your-github-user-name>/<your-github-repo-name>
   category: Comments             # name of the category under which discussions will be created
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
