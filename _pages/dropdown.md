@@ -8,6 +8,6 @@ children:
     - title: about
       permalink: /
     - title: divider
-    - title: no use
-      permalink: /cv/
+    - title: teaching
+      permalink: /teaching/
 ---
