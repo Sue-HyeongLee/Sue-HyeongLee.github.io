@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /courses/
+title: Courses
 description: Bachelor's AI/SW Major
 nav: true
 nav_order: 5
