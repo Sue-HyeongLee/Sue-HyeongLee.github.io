@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 010 - 8863 - 5785. My moto is think hard.
+subtitle: My moto is think hard.
 
 profile:
   align: right
