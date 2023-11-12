@@ -19,12 +19,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-### Instruction
+### Introduction
+Hi I'm Sue-HyeongLee.
 I graduated from Sangsan high school.
-
 I major in Aplied Artificial Inteligence and Computer Science Engineering at Sungkyunkwan University.
-
-I am a passionate student. i am currently in second year of university.
+I am a passionate student. I am currently in second year of university.
 
 ### Skill
 I use Python and C, javascript.
@@ -35,7 +34,7 @@ I use Python and C, javascript.
 
    * Major: Applied Artificial Inteligence && Computer Science Engineering(Software)
 
-   * overall GPA: 4.43/4.5 Major GPA: 4.38/4.5
+   * Overall GPA: 4.43/4.5 Major GPA: 4.38/4.5
 
 ### Achievement and Certifications
 [may 2023] Dean's list (성적 우수자)
