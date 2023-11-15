@@ -42,7 +42,8 @@ jobs: # 주된 내용들
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
     - name: Deploy 🚀
-      if: github.event_name != 'pull_request' # push일 때만 실행될 것임.
+      if: github.event_name != 'pull_request' 
+      # push일 때만 실행될 것임.
       uses: JamesIves/github-pages-deploy-action@v4 # github page에 자동으로 배포하기 위한 외부 액션.
       with:
         folder: _site # site 폴더에 있는 것을 배포할 것임.
