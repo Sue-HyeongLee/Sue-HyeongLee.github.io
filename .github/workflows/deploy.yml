@@ -1,5 +1,5 @@
 name: deploy
-
+# 이 워크플로우는 Jekyll을 사용하여 정적 웹사이트를 빌드하고 GitHub Pages에 자동으로 배포하는 것이다.
 on: # 특정 이벤트 발생
   push: # push 하는 상황
     branches:
