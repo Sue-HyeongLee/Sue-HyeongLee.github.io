@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: 
     <p>My phone number 010 - 8863 - 5785</p>
-    <p>장안구 서부로 2066</p>
-    <p>경기 수원시</p>
+    <p>Jangangu seburo 2066</p>
+    <p>Keongi Suwonsi</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -25,8 +25,8 @@ I graduated from Sangsan high school.
 I major in Aplied Artificial Inteligence and Computer Science Engineering at Sungkyunkwan University.
 I am a passionate student. I am currently in second year of university.
 
-### Skill
-I use Python and C, javascript.
+### Skills
+I use Python and C, javascript. I'm interested in Web Programming.
 
 ### Education 
 [Mar 2022 ~ Current] **Bachelor of Science**
