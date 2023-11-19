@@ -8,6 +8,9 @@ children:
     - title: about
       permalink: /
     - title: divider
-    - title: Courses
+    - title: courses
       permalink: /courses/
+    - title: repositories
+      permalink: /repositories/
+      
 ---

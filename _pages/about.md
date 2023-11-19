@@ -39,7 +39,7 @@ I use Python and C, javascript. I'm interested in Web Programming.
 ### Achievement and Certifications
 [may 2023] Dean's list (성적 우수자)
 
-[oct 2023] 서울권 대학 연합 인공지능 경진대회 SCAIO 본선 진출
+[oct 2023] 서울권 대학 연합 인공지능 경진대회 SCAIO '우수상'
 
 ### Contact
 * my instagram: [instagram](https://www.instagram.com/isuhyeong55/)
