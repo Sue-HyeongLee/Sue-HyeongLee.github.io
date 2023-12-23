@@ -11,6 +11,54 @@ Among the courses I took, I wrote only those related to AI/SW major. Please note
 <br>
 <br>
 
+<center>DSC3011-01</center>
+<br>
+<br>
+<center>Applied Machine Learning</center>
+<center>응용머신러닝</center>
+<br>
+<br>
+<center>2023</center>
+<br><br>
+<center>A0</center>
+<br><br>
+
+<center>SWE2015-42</center>
+<br>
+<br>
+<center>Data Structures</center>
+<center>자료구조개론</center>
+<br>
+<br>
+<center>2023</center>
+<br><br>
+<center>A0</center>
+<br><br>
+
+<center>SWE2021-41</center>
+<br>
+<br>
+<center>Open Source Sorftware Practice</center>
+<center>오픈소스소프트웨워실습</center>
+<br>
+<br>
+<center>2023</center>
+<br><br>
+<center>A+</center>
+<br><br>
+
+<center>SWE2001-42</center>
+<br>
+<br>
+<center>System Program</center>
+<center>시스템프로그램</center>
+<br>
+<br>
+<center>2023</center>
+<br><br>
+<center>A0</center>
+<br><br>
+
 <center>ISS3224</center>
 <br>
 <br>

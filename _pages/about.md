@@ -34,7 +34,7 @@ I use Python and C, javascript. I'm interested in Web Programming.
 
    * Major: Applied Artificial Inteligence && Computer Science Engineering(Software)
 
-   * Overall GPA: 4.43/4.5 Major GPA: 4.38/4.5
+   * Overall GPA: 4.38/4.5 Major GPA: 4.24/4.5
 
 ### Achievement and Certifications
 [may 2023] Dean's list (성적 우수자): [image](https://drive.google.com/file/d/1Qc-OVn1l-r3xf35n-KaYbg6zPcrU8l3z/view?usp=sharing)
