@@ -11,6 +11,18 @@ Among the courses I took, I wrote only those related to AI/SW major. Please note
 <br>
 <br>
 
+<center>DASF005-I4</center>
+<br>
+<br>
+<center>AI Basics & Uses</center>
+<center>AI기초와활용</center>
+<br>
+<br>
+<center>2023</center>
+<br><br>
+<center>A+</center>
+<br><br>
+
 <center>DSC3011-01</center>
 <br>
 <br>
