@@ -1,54 +1,52 @@
 name: deploy
 # 이 워크플로우는 Jekyll을 사용하여 정적 웹사이트를 빌드하고 GitHub Pages에 자동으로 배포하는 것이다.
-on: # 특정 이벤트 발생
-  push: # push 하는 상황
+on: 
+  push: 
     branches:
       - master
       - main
-  pull_request: # pull_request 하는 상황
+  pull_request: 
     branches:
       - master
       - main
-  workflow_dispatch: # 사용자가 수동적으로 workflow를 실행하려고 할 때
+  workflow_dispatch: 
 
 permissions:
-  contents: write # 해당 액션이 디렉토리에 쓰기 권한을 가짐을 명함.
+  contents: write 
 
-jobs: # 주된 내용들
+jobs: 
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest # 최신 우분투에서 이걸 실행할 것임.
-    steps: # 실제로 할 일 들
-    - name: Checkout 🛎️ # github 저장소의 코드를 현재 작업환경에 체크아웃(복제)하는데 사용됩니다.
-      uses: actions/checkout@v4 # Node.js 경고를 줄이기 위해 v4로 유지 (시스템이 자동으로 Node 24로 전환하여 실행함)
+    runs-on: ubuntu-latest 
+    steps: 
+    - name: Checkout 🛎️ 
+      uses: actions/checkout@v4 
       
     - name: Setup Ruby 
-      uses: ruby/setup-ruby@v1 # 지정된 버전의 루비를 환경에 설치 해줍니다.
+      uses: ruby/setup-ruby@v1 
       with:
-        ruby-version: '2.7.5'
-        bundler-cache: true # bundler-cache를 활성화해서 같은 버전의 루비를 다시 활성화하지 않도록 합니다.
+        ruby-version: '3.1' # 👈 핵심 수정: 구버전 패키지 충돌을 해결하기 위해 3.1 버전으로 업그레이드!
+        bundler-cache: true 
         
     - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@main # 최신 버전(main)으로 수정하여 Node.js 관련 경고 해결
+      uses: fjogeleit/yaml-update-action@main 
       with:
-        commitChange: false # 변경사항을 커밋하지 않도록 설정합니다.
-        valueFile: '_config.yml' # update할 경로를 입력.
-        propertyPath: 'giscus.repo' # update할 속성을 설정.
-        value: ${{ github.repository }} # github.repository의 이름으로 값을 번경.
+        commitChange: false 
+        valueFile: '_config.yml' 
+        propertyPath: 'giscus.repo' 
+        value: ${{ github.repository }} 
         
     - name: Install and Build 🔧
-      run: | # 필요한 것들을 설치하고, build하는 작업들을 행합니다.
+      run: | 
         pip3 install --break-system-packages --upgrade jupyter 
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle update  # 👈 [추가됨] uri 패키지 버전 충돌 에러(Gem::LoadError)를 방지하기 위해 의존성 업데이트
+        bundle update  
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
         
     - name: Deploy 🚀
       if: github.event_name != 'pull_request' 
-      # push일 때만 실행될 것임.
-      uses: JamesIves/github-pages-deploy-action@v4 # github page에 자동으로 배포하기 위한 외부 액션.
+      uses: JamesIves/github-pages-deploy-action@v4 
       with:
-        folder: _site # site 폴더에 있는 것을 배포할 것임.
+        folder: _site
