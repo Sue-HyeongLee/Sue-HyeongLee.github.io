@@ -178,4 +178,65 @@ Among the courses I took, I wrote only those related to AI/SW major. Please note
 <br><br>
 <center>A+</center>
 <br><br>
+
+<center>DSC2016_01</center>
+<br>
+<br>
+<center>Ethical and social impact of data</center>
+<center>데이터윤리와사회적영향</center>
+<br>
+<br>
+<center>2026</center>
+<br><br>
+<center>A</center>
+<br><br>
+
+<center>SWE3005</center>
+<br>
+<br>
+<center>Computer Architecture</center>
+<center>컴퓨터구조개론</center>
+<br>
+<br>
+<center>2026</center>
+<br><br>
+<center>A</center>
+<br><br>
+
+<center>SWE2016_41</center>
+<br>
+<br>
+<center>Algorithms</center>
+<center>알고리즘개론</center>
+<br>
+<br>
+<center>2026</center>
+<br><br>
+<center>A+</center>
+<br><br>
+
+<center>SWE2023</center>
+<br>
+<br>
+<center>JAVA Programming Lab</center>
+<center>자바 프로그래밍 실습</center>
+<br>
+<br>
+<center>2026</center>
+<br><br>
+<center>A+</center>
+<br><br>
+
+<center>SWE3003</center>
+<br>
+<br>
+<center>Database</center>
+<center>데이터베이스개론</center>
+<br>
+<br>
+<center>2026</center>
+<br><br>
+<center>A+</center>
+<br><br>
+
 >Thank you for visiting my web page. :D
