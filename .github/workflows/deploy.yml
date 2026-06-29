@@ -16,35 +16,36 @@ permissions:
 
 jobs: # 주된 내용들
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest # 최신 우분투에서 이걸 실행할 것임.
-    steps: # 실제로 할 일 들
-    - name: Checkout 🛎️ # github 저장소의 코드를 현재 작업환경에 체크아웃(복제)하는데 사용됩니다.
-      uses: actions/checkout@v3 # actions/checkout의 역할은 위와 같습니다.
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Checkout 🛎️
+      uses: actions/checkout@v4 # 👈 1. 버전을 v4로 변경 (Node.js 경고 해결)
+      
     - name: Setup Ruby 
-      uses: ruby/setup-ruby@v1 # 지정된 버전의 루비를 환경에 설치 해줍니다.
+      uses: ruby/setup-ruby@v1 
       with:
         ruby-version: '2.7.5'
-        bundler-cache: true # bundler-cache를 활성화해서 같은 버전의 루비를 다시 활성화하지 않도록 합니다.
+        bundler-cache: true 
+        
     - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@v0.13.1 # _config.yml 파일을 업데이트 해줍니다.
+      uses: fjogeleit/yaml-update-action@main # 👈 2. 버전을 main으로 변경 (Node.js 경고 해결)
       with:
-        commitChange: false # 변경사항을 커밋하지 않도록 설정합니다.
-        valueFile: '_config.yml' # update할 경로를 입력.
-        propertyPath: 'giscus.repo' # update할 속성을 설정.
-        value: ${{ github.repository }} # github.repository의 이름으로 값을 번경.
+        commitChange: false
+        valueFile: '_config.yml' 
+        propertyPath: 'giscus.repo' 
+        value: ${{ github.repository }} 
+        
     - name: Install and Build 🔧
-      run: | # 필요한 것들을 설치하고, build하는 작업들을 행합니다.
-        pip3 install --upgrade jupyter 
+      run: | 
+        pip3 install --break-system-packages --upgrade jupyter # 👈 3. --break-system-packages 추가 (exit code 1 에러 해결)
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
+        
     - name: Deploy 🚀
       if: github.event_name != 'pull_request' 
-      # push일 때만 실행될 것임.
-      uses: JamesIves/github-pages-deploy-action@v4 # github page에 자동으로 배포하기 위한 외부 액션.
+      uses: JamesIves/github-pages-deploy-action@v4 
       with:
-        folder: _site # site 폴더에 있는 것을 배포할 것임.
-
+        folder: _site
